@@ -1,0 +1,43 @@
+.landing-page {
+  min-height: 100vh;
+  padding-top: 140px;
+  background: transparent
+    linear-gradient(180deg, #fafafa 0%, #c8e9fd 52%, #ffffff 100%) 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.why-words {
+  min-height: 100vh;
+  padding: 2rem 0;
+
+}
+.why-words .imageBg {
+  background-image: url("../../../assets/img/home/bg-shaes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 25vh ; 
+  padding: 0 3rem;
+}
+.why-words .content {
+    min-height: 60vh ; 
+    padding: 3rem 10rem  6rem 10rem;
+  }
+.why-words .info {
+    min-height: 15vh ; 
+  }
+.our-books{
+  min-height: 200vh;
+}
+.our-books .main-title , .our-books .info-books{
+  min-height: 30vh;
+}
+.our-books .group-books{
+  min-height: 140vh;
+}
+.our-books .imageBg {
+  background-image: url("../../../assets/img/home/bg-shaes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 25vh ; 
+  padding: 0 3rem;
+}

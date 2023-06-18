@@ -1,15 +1,13 @@
 import './App.css'
+import Router from './router/Router'
+import { fontDir } from './utils/helpFunctions';
 
 function App() {
-  
-
+  const { currentFont, dir } = fontDir();
   return (
-    <>
-    <div >
-    <h1 className='rtl:ms-3 ms-5'>Hello</h1>
+    <div className={`${currentFont} relative`} dir={dir}>
+      <Router />
     </div>
- 
-    </>
   )
 }
 

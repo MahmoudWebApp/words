@@ -1,0 +1,39 @@
+/* Ant design checkBooks */
+.ant-checkbox .ant-checkbox-inner {
+  border-color: #63ad28 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #63ad28 !important;
+  border-color: #63ad28 !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #63ad28 !important;
+  border-color: #63ad28 !important;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #63ad28 !important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+  background-color: #63ad28 !important;
+}
+/**************************************/
+/* menu-Icon and drawer */
+.ant-btn.menu_btn {
+  padding: 1.4rem !important;
+ 
+}
+.ant-btn.menu_btn svg {
+  font-size: 20px !important;
+  color: #fff !important;
+}
+.ant-drawer-header-title svg {
+  font-size: 25px !important;
+}
+/**************************************/
+img {
+  pointer-events: none;
+}
