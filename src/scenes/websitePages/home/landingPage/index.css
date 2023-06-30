@@ -1,0 +1,8 @@
+.landing-page {
+    min-height: 100vh;
+    padding-top: 140px;
+    background: transparent
+      linear-gradient(180deg, #fafafa 0%, #c8e9fd 52%, #ffffff 100%) 0% 0%
+      no-repeat padding-box;
+    opacity: 1;
+  }

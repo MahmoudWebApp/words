@@ -41,7 +41,7 @@ const ResetPassword = () => {
                                         type="password"
                                     />
                                 </Form.Item>
-                                <button className="bg-words-green-light py-2 px-10 rounded w-full mt-2" type="submit">
+                                <button className="bg-words-green-light py-2 px-10 rounded w-full mt-2 btn-animated" type="submit">
                                     <span className="text-word-white xl:text-base text-xs">{`${t("Change Password")}`}</span>
                                 </button>
                             </Form>
@@ -51,7 +51,7 @@ const ResetPassword = () => {
                         <div className="w-full flex  justify-center  pb-12">
                             <p className="text-word-dark text-sm">{`${t("Just remember?")}`}</p>
                             <NavLink to="/login">
-                                <span className="text-words-green-light text-sm mx-1">{`${t(" Sign in")}`}</span>
+                                <span className="text-words-green-light text-sm mx-1 ">{`${t(" Sign in")}`}</span>
                             </NavLink>
                         </div>
                     </div>

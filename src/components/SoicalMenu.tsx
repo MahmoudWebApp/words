@@ -21,8 +21,8 @@ const SocialMenu = () => {
     return (
         <ul className='flex flex-row gap-x-3'>
             {socialList?.map(x =>
-                <li onClick={() => navigate(x.link)} key={x.id}>
-                    <ProtectImage src={x.icon} className={''} alt={x.id} />
+               <li onClick={() => navigate(x.link)} key={x.id}>
+                    <ProtectImage src={x.icon} className={'md:w-10  w-8 '} alt={x.id} />
                 </li>)}
         </ul>
     )

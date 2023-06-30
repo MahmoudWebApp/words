@@ -1,0 +1,31 @@
+.footer {
+  max-height: 100vh;
+  padding: 2rem 0;
+  padding-top: 20vh;
+}
+
+.footer .content {
+  min-height: 65vh;
+}
+.footer .content .react-tel-input input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.footer .content textarea#message_Message {
+  padding: .7rem;
+}
+.footer .info {
+  min-height: 15vh;
+}
+@media only screen and (max-width: 991px) {
+  .footer {
+    min-height: 100vh;
+    max-height: initial;
+    padding-top: 15vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer {
+    padding-top: 10vh;
+  }
+}

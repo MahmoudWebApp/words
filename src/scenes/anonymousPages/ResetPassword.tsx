@@ -34,7 +34,7 @@ const ResetPassword = () => {
                                         type="email"
                                     />
                                 </Form.Item>
-                                <button className="bg-words-green-light py-2 px-10 rounded w-full" type="submit">
+                                <button className="bg-words-green-light py-2 px-10 rounded w-full btn-animated" type="submit">
                                     <span className="text-word-white xl:text-base text-xs">{`${t("Send Recovery Email")}`}</span>
                                 </button>
                             </Form>

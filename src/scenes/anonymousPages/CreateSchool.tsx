@@ -87,7 +87,7 @@ const CreateSchool= () => {
                                 />
                             </Form.Item>
                             <div className="w-full ">
-                                <button className="bg-words-green-light py-2 px-10 rounded w-full " type="submit">
+                                <button className="bg-words-green-light py-2 px-10 rounded w-full btn-animated" type="submit">
                                     <span className="text-word-white xl:text-base text-xs">{`${t("Sign up now")}`}</span>
                                 </button>
                             </div>
@@ -102,7 +102,7 @@ const CreateSchool= () => {
                         <div className="w-full flex sm:flex-row flex-col  items-center xl:mt-6 mt-4">
                             <p className="text-word-dark text-sm">{`${t("Already have an account?")}`}</p>
                             <NavLink to="/login">
-                                <span className="text-words-green-light text-sm mx-1">{`${t("Sign in")}`}</span>
+                                <span className="text-words-green-light text-sm mx-1 ">{`${t("Sign in")}`}</span>
                             </NavLink>
                         </div>
                     </div>

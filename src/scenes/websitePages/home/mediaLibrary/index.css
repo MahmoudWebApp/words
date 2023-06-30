@@ -1,0 +1,39 @@
+.media-library {
+  max-height: 100vh;
+  padding: 2rem 0;
+}
+.media-library .imageBg {
+  background-image: url("../../../../assets/img/home/bg-shaes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 25vh;
+  padding: 0 3rem;
+}
+.media-library .content {
+  padding: 3rem 10rem;
+  height: 75vh;
+}
+@media only screen and (max-width: 991px) {
+  .media-library {
+    min-height: 100vh;
+   margin-bottom: 5rem;
+ 
+  }
+  .media-library .imageBg {
+    height: 20vh;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .media-library .imageBg {
+    height: 15vh;
+    padding: 0;
+    background-size: cover;
+  }
+  .media-library .content {
+    padding: 3rem 1rem;
+  }
+  .media-library {
+    margin-bottom: 10vh;
+  }
+}

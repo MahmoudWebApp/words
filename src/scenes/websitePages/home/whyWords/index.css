@@ -1,0 +1,38 @@
+.why-words {
+  height: 100vh;
+  padding: 2rem 0;
+}
+.why-words .imageBg {
+  background-image: url("../../../../assets/img/home/bg-shaes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 15vh;
+  padding: 0 3rem;
+}
+.why-words .content {
+  max-height: 65vh;
+  padding: 3rem 10rem 3rem 10rem;
+  
+}
+.why-words .info {
+  height: 20vh;
+}
+@media only screen and (max-width: 991px) {
+  .why-words .imageBg {
+    height: 20vh;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .why-words .imageBg {
+    height: 15vh;
+    padding: 0 ;
+    background-size: cover;
+  }
+  .why-words .content {
+    padding:1rem;
+  }
+  .why-words {
+    padding: .5rem 0;
+  }
+}

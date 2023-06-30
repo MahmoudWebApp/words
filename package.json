@@ -10,21 +10,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "@react-icons/all-files": "^4.1.0",
+    "@react-pdf/renderer": "^3.1.12",
     "@reduxjs/toolkit": "^1.9.5",
     "@types/react-redux": "^7.1.25",
     "antd": "^5.6.1",
     "antd-phone-input": "^0.1.6",
+    "framer-motion": "^10.12.16",
     "i18next": "^22.5.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.3",
     "react-dom": "^18.2.0",
+    "react-flip-page": "^1.6.4",
     "react-i18next": "^12.3.1",
+    "react-pageflip": "^2.0.3",
+    "react-pdf": "^7.1.2",
     "react-redux": "^8.0.7",
     "react-router-dom": "^6.11.2",
     "react-toastify": "^9.1.3",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "swiper": "^9.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

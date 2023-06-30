@@ -1,0 +1,15 @@
+.our-learning{
+   
+    padding-top: 25vh;
+  }
+  @media only screen and (max-width: 991px) {
+    .our-learning{
+  
+      padding-top: 15vh;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .our-learning{
+      padding-top: 10vh;
+    }
+  }

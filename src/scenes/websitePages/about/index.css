@@ -1,0 +1,15 @@
+.about-page {
+  min-height: 100vh;
+  padding-top: 106px;
+  opacity: 1;
+
+}
+.about-page .left-side-en{
+  background: transparent linear-gradient(91deg, #EC008C00 0%, #7600461A 100%) 
+  0% 0% no-repeat padding-box;
+}
+.about-page .left-side-ar{
+  background: transparent linear-gradient(91deg,#7600461A  0%,  #EC008C00 100%) 
+  0% 0% no-repeat padding-box;
+}
+

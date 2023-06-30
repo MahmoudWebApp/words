@@ -42,22 +42,27 @@ const Login = () => {
                     type="password"
                   />
                 </Form.Item>
-                <div className="w-full flex flex-row justify-between items-center">
+                <div className="w-full flex flex-row justify-between items-center mb-3">
+                  <Form.Item
+                    name="remember"
+                    valuePropName="checked"
+                    noStyle
+                  > <Checkbox defaultChecked={true} style={{ width: 'auto' }} > {t('Remember me')}</Checkbox></Form.Item>
                   <NavLink to="/reset-password">
                     <span className="text-word-gray-dark-3 xl:text-sm text-xs">{`${t("Forgot password?")}`}</span>
                   </NavLink>
-                  <button className="bg-words-green-light py-2 px-10 rounded" type="submit">
-                    <span className="text-word-white xl:text-base text-xs">{`${t("Login")}`}</span>
-                  </button>
                 </div>
+                <button className="bg-words-green-light py-2 px-10 rounded btn-animated w-full" type="submit">
+                  <span className="text-word-white xl:text-base text-xs">{`${t("Login")}`}</span>
+                </button>
                 <Divider plain className={`${currentFont}`}><span className="text-word-gray-dark-2 text-sm">{`${t("Or")}`}</span></Divider>
               </Form>
               <div className="w-full flex flex-row justify-between items-center">
-                <button className="bg-word-white py-2  rounded flex flex-row gap-x-2 justify-center items-center lg:w-40 md:w-36 w-32" >
+                <button className="bg-word-white py-2  rounded flex flex-row gap-x-2 justify-center items-center lg:w-40 md:w-36 w-32 btn-animated" >
                   <img src={googleIcon} alt="google_icon" className="w-5" />
                   <span className="text-word-dark xl:text-base text-xs">{`${t("Google")}`}</span>
                 </button>
-                <button className="bg-word-white py-2  rounded flex flex-row gap-x-1 justify-center items-center lg:w-40 md:w-36 w-32" >
+                <button className="bg-word-white py-2  rounded flex flex-row gap-x-1 justify-center items-center lg:w-40 md:w-36 w-32 btn-animated" >
                   <img src={faceIcon} alt="facebook_icon" className="w-10" />
                   <span className=" text-word-dark xl:text-base text-xs">{`${t("Facebook")}`}</span>
                 </button>

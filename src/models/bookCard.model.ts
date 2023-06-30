@@ -6,4 +6,5 @@ export interface IBookCard {
     subRate: string;
     level: string;
     description: string;
+    delay?: number
 }

@@ -1,0 +1,21 @@
+.contact-page {
+    min-height: 100vh;
+    padding: 2rem 0;
+    padding-top: 130px;
+    opacity: 1;
+  }
+  .contact-page .content {
+    padding: 4rem;
+    height: auto;
+  }
+  @media only screen and (max-width: 991px) {
+    .contact-page .content {
+      padding: 3rem;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .contact-page .content {
+      padding: 2rem 1rem;
+    }
+  }
+  

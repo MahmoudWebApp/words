@@ -1,0 +1,40 @@
+/*about-us*/
+.about-us {
+    max-height: 100vh;
+    padding: 2rem 0;
+  }
+  .about-us .imageBg {
+    background-image: url("../../../../assets/img/home/bg-shaes.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25vh;
+    padding: 0 3rem;
+  }
+  .about-us .content {
+    padding: 3rem 10rem ;
+    height: 75vh;
+  }
+  @media only screen and (max-width: 991px) {
+    .about-us {
+      min-height: 100vh;
+      margin-bottom: 5rem;
+    }
+    .about-us .imageBg {
+      height: 20vh;
+      background-size: cover;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .about-us {
+      min-height: 100vh;
+      margin-bottom: 0rem;
+    }
+    .about-us .imageBg {
+      height: 15vh;
+      padding: 0;
+      background-size: cover;
+    }
+    .about-us .content {
+      padding: 3rem 1rem ;
+    }
+  }

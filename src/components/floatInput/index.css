@@ -19,8 +19,8 @@
   }
   
   .as-label {
-    top: -15px;
-    font-size: 12px !important;
+    top: 0px;
+    font-size: 10px !important;
     background:transparent;
     padding: 0 4px;
     margin-left: -4px;

@@ -68,7 +68,7 @@ const Register = () => {
                   />
                 </Form.Item>
                 <div className="w-full ">
-                  <button className="bg-words-green-light py-2 px-10 rounded w-full " type="submit">
+                  <button className="bg-words-green-light py-2 px-10 rounded w-full btn-animated" type="submit">
                     <span className="text-word-white xl:text-base text-xs">{`${t("Sign up now")}`}</span>
                   </button>
                 </div>

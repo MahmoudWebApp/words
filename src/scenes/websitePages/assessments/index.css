@@ -1,0 +1,66 @@
+.assessment-land-page {
+  min-height: 100vh;
+  padding: 2rem 0;
+  padding-top: 110px;
+  opacity: 1;
+}
+.assessment-land-page .content {
+  padding: 3rem;
+  padding-top: 0;
+  height: auto;
+}
+@media only screen and (max-width: 991px) {
+  .assessment-land-page .content {
+    padding: 2rem;
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .assessment-land-page .content {
+    padding: 1rem;
+    padding-top: 0;
+  }
+}
+/* Assessment Level */
+.assessment-level {
+  height: 200vh;
+}
+
+.assessment-level .imageBg {
+  background-image: url("../../../assets/img/home/bg-shaes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 20vh;
+  padding: 0 3rem;
+}
+.assessment-level .main-title{
+  height: 25vh;
+}
+.assessment-level .content {
+  height: 140vh;
+}
+.assessment-level .info {
+  min-height: 15vh;
+}
+@media only screen and (max-width: 991px) {
+  .assessment-level {
+    height: auto;
+  }
+  .assessment-level .content {
+    height: auto;
+  }
+  .assessment-level .imageBg {
+    min-height: 20vh;
+    background-size: cover;
+  }
+  .assessment-level .info {
+    min-height: 10vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .assessment-level .imageBg {
+    height: 15vh;
+    padding: 0;
+    background-size: cover;
+  }
+}

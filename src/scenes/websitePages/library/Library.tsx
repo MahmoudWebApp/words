@@ -1,13 +1,15 @@
 
+import LandingPage from './LandingPage'
+import LibraryList from './LibraryList'
+import './index.css'
 const Library = () => {
-  return (
-    <>
-  
-    <div className="text-center mt-24 animate-[wiggle_1s_ease-in-out_infinite]">
-     Coming Soon
-    </div>
-  </>
-  )
+
+    return (
+        <>
+            <LandingPage />
+            <LibraryList />
+        </>
+    )
 }
 
 export default Library

@@ -1,5 +1,5 @@
 import { t } from "i18next";
-import { HiInformationCircle} from "@react-icons/all-files/hi/HiInformationCircle";
+import { HiInformationCircle } from "@react-icons/all-files/hi/HiInformationCircle";
 import { MdAssessment } from "@react-icons/all-files/md/MdAssessment";
 import { ImBooks } from "@react-icons/all-files/im/ImBooks";
 import { HiLibrary } from "@react-icons/all-files/hi/HiLibrary";
@@ -10,6 +10,7 @@ import { SiPaypal } from "@react-icons/all-files/si/SiPaypal";
 
 import { NavLink, useLocation } from "react-router-dom";
 import { ReactNode } from "react";
+import { JackInTheBox } from "react-awesome-reveal";
 interface IMainMenu {
     key: string;
     name: string;
@@ -62,25 +63,26 @@ const MainMenu: React.FC<IProps> = (props) => {
         },
     ];
     return <>
-        {mainMenu?.map((item) => (
+        {mainMenu?.map((item, index) => (
             <NavLink
                 to={item?.url}
                 key={item?.key}
                 className={`xl:text-base/[19px] md:text-sm text-xl ${pathname === item?.url
                     ? "before:scale-100 text-words-green-light"
                     : "before:scale-0 text-word-green-dark"
-                    }  hover:before:scale-100 hover:text-words-green-light
+                    }  hover:before:scale-100 hover:text-words-green-light transition  hover:scale-110 hover:duration-500 ease-in-out
                      relative 
                      before:w-full before:block before:absolute before:h-1 before:left-0 before:transition-transform before:bg-words-green-light
                      ${props.beforeEffect ? "before:top-14 "
                         : "before:top-8"}
                        ` }
             >
-                <div className="flex items-center ">
-                    {props.hasIcon && <span className="mx-3 mt-1 ">{item.icon}</span>}
-                    <span>{item?.name}</span>
-                </div>
-
+                <JackInTheBox delay={400} duration={500 * (index + 1)} triggerOnce>
+                    <div className="flex items-center ">
+                        {props.hasIcon && <span className="mx-3 mt-1 ">{item.icon}</span>}
+                        <span className=" font-normal font-Luckiest">{item?.name}</span>
+                    </div>
+                </JackInTheBox>
             </NavLink>
         ))}
     </>

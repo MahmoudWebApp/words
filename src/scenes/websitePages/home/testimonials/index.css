@@ -1,0 +1,24 @@
+.testimonials {
+    max-height: 100vh;
+    padding: 2rem 0;
+    padding-top: 20vh;
+  }
+
+  .testimonials .content {
+    min-height: 65vh;
+  }
+  .testimonials  .info {
+    min-height: 15vh;
+  }
+  @media only screen and (max-width: 991px) {
+    .testimonials{
+      min-height: 100vh;
+      max-height: initial;
+      padding-top: 15vh;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .testimonials{
+      padding-top: 10vh;
+    }
+  }

@@ -1,0 +1,31 @@
+.our-books {
+  min-height: 200vh;
+  background-color: #E7F6FC;
+}
+.our-books .main-title,
+.our-books .info-books {
+  min-height: 30vh;
+}
+.our-books .group-books {
+  min-height: 140vh;
+}
+.our-books .imageBg {
+  background-image: url("../../../../assets/img/home/bg-shaes.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 25vh;
+  padding: 0 3rem;
+}
+@media only screen and (max-width: 991px) {
+  .our-books .imageBg {
+    height: 20vh;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .our-books .imageBg {
+    height: 15vh;
+    padding: 0;
+    background-size: cover;
+  }
+}

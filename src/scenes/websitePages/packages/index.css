@@ -1,0 +1,19 @@
+.package-page {
+  max-height: 100vh;
+  padding: 2rem 8rem;
+  padding-top: 130px;
+}
+@media only screen and (max-width: 991px) {
+  .package-page{
+    min-height: 100vh;
+    max-height: initial;
+    padding: 2rem 4rem;
+    padding-top: 15vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .package-page{
+    padding: 2rem 2rem;
+    padding-top: 15vh;
+  }
+}

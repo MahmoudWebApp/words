@@ -1,0 +1,14 @@
+/* our-learning-card */
+.our-learning-card {
+  transition: background 0.5s;
+}
+.our-learning-card:hover .icon-white {
+  display: block !important;
+}
+.our-learning-card:hover .icon-green {
+  display: none !important;
+}
+.our-learning-card:hover .card-description,
+.our-learning-card:hover .card-title {
+  color: #fff !important;
+}
