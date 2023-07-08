@@ -8,4 +8,5 @@ export interface IPackageCard {
     name: string;
     description: string;
     list: IListPackageCard[];
+    url:string;
 }

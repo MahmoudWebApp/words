@@ -16,7 +16,7 @@ const About = () => {
         <div className='basis-1/2 lg:pl-16 lg:pr-0 rtl:lg:pl-0 rtl:lg:pr-16 lg:py-12 bg-word-white h-full py-6 px-6 flex justify-center items-center'>
           <ProtectImage src={aboutPageImage} className={`object-fit max-h-[35rem]`} alt={'home-img'} />
         </div>
-        <div className={`basis-1/2 lg:py-12 lg:pr-24 lg:pl-0 rtl:lg:pr-6 rtl:lg:pl-24 h-full px-12 py-6 ${backColor}`}>
+        <div className={`basis-1/2 lg:py-16 lg:pr-24 lg:pl-0 rtl:lg:pr-6 rtl:lg:pl-24 h-full px-12 py-6 ${backColor}`}>
           <div className='flex flex-col gap-y-2 justify-start'>
             <TitleHead title={`${t("WORDS ACADEMY")}`} color={"text-word-pink-light"} />
             <p className='text-2xl font-bold text-word-pink-dark -mt-3'>{`${t("Who we are ?")}`}</p>

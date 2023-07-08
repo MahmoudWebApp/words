@@ -1,0 +1,59 @@
+.radio-custom .ant-radio-wrapper {
+    border: 2px solid #84818A;
+    width: 20px;
+    height: 20px;
+  }
+  .radio-custom .ant-radio-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    bottom:-.3rem;
+    right: -.3rem;
+    border: 3px solid #84818A;
+    border-left: none;
+    border-top: none;
+  }
+  .radio-custom .ant-radio-wrapper-checked::after{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    bottom:-.3rem;
+    right: -.3rem;
+    border: 3px solid #6dcff6;
+    border-left: none;
+    border-top: none;
+  }
+  .radio-custom .ant-radio-wrapper-checked {
+    position: relative;
+    border: 2px solid #6dcff6;
+    width: 20px;
+    height: 20px;
+  }
+  .radio-custom .ant-radio-wrapper-checked:before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top:50%;
+    left: 50%;
+    background-color: #6dcff6;
+    transform: translate(-50%,-50%);
+    z-index: 20;
+  }
+  
+  .radio-custom .ant-radio {
+    position: absolute;
+    left: -9999px;
+    overflow: hidden;
+  } 
+  
+  .radio-custom .ant-radio + * {
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+  }

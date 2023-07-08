@@ -1,11 +1,11 @@
 import React from "react";
 
-interface PageProps {
-  bg?: string;
-  nextBg?: string;
-  zIndex?: number;
-  pageTotal?: number;
-}
+// interface PageProps {
+//   bg?: string;
+//   nextBg?: string;
+//   zIndex?: number;
+//   pageTotal?: number;
+// }
 const BookViewer = ({bg = '', nextBg = '', zIndex = 0, pageTotal = 0}) => {
   const [flipStatus, setFlipStatus] = React.useState<boolean>(false);
   const [zIndexState, setZIndexState] = React.useState<number>(zIndex);

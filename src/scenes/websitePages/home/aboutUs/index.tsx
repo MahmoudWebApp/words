@@ -20,6 +20,7 @@ const AboutUs = () => {
                             <h5 className='md:text-2xl text-xl text-words-green-light font-medium lg:-mt-2 -mt-0 rtl:mt-3'>{`${t("Words academy for learning languages")}`}</h5>
                             <div className='w-28 h-2 bg-words-green-light my-6'></div>
                             <p className='md:text-lg/[26px] text-base text-word-gray-dark-3'>{`${t("In our world, we transfer words in two languages that transform kids’ world to a journey of imagination, mythology and happiness. Visual, auditory, musical and social intelligence can be found in words academy who acknowledges that each child has the wright to learn regarding his abilities .")}`}</p>
+                            
                             <button className='w-fit px-16 py-2 bg-word-green-dark text-word-white text-base mt-6 btn-animated' onClick={() => navigate('/')}>
                                 {`${t("Find out more!")}`}
                             </button>

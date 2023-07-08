@@ -9,7 +9,7 @@ interface IProps {
 const TitleHead: React.FC<IProps> = (props) => {
     const { titleFont }=fontDir();
     return (
-        <h2 className={`lg:text-7xl md:text-5xl text-4x font-extrabold uppercase ${props.color} ${titleFont} ${props.moreClasses}`}>{props.title}</h2>
+        <h2 className={`lg:text-6xl md:text-5xl text-4xl font-extrabold uppercase tracking-wide ${props.color} ${titleFont} ${props.moreClasses}`}>{props.title}</h2>
     )
 }
 

@@ -8,9 +8,9 @@ const LandingPage = () => {
     return (
         <div className='book-land-page'>
             <div className='w-full imageBg '></div>
-            <div className='w-full flex lg:flex-row flex-col content lg:-mt-20  -mt-12'>
-                <div className='basis-1/2  '>
-                    <ProtectImage src={bookImage} className={`object-fit h-full mx-auto `} alt={'about-image'} />
+            <div className='w-full flex lg:flex-row flex-col content lg:-mt-20 lg:gap-x-10 -mt-12'>
+                <div className='basis-1/2'>
+                    <ProtectImage src={bookImage} className={`object-cover h-full mx-auto  `} alt={'about-image'} />
                 </div>
                 <div className='basis-1/2 h-auto flex item-center justify-center'>
                     <div className='flex flex-col   justify-center items-start text-center  lg:px-3 lg:pr-24 rtl:lg:pr-6 rtl:lg:pl-24 px-12 '>

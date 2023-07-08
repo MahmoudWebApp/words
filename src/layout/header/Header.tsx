@@ -5,7 +5,6 @@ import MainMenu from "../../components/MainMenu";
 import { NavLink } from "react-router-dom";
 import DrawerMenu from "../../components/DrawerMenu";
 import {  Zoom } from "react-awesome-reveal";
-import { fontDir } from "../../utils/helpFunctions";
 const MainHeader = () => {
   
   return (

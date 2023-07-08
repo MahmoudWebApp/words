@@ -7,9 +7,6 @@ import bookArLevel5 from "../../../../../assets/img/books/arabic_book_cover_5.pn
 import bookArLevel6 from "../../../../../assets/img/books/arabic_book_cover_6.png";
 import BookCard from "../../../../../components/BookCard";
 
-
-
-
 const BooksCardsArc = () => {
     const data: IBookCard[] = [
         {

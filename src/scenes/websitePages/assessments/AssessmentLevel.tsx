@@ -6,8 +6,10 @@ import ProtectImage from "../../../components/ProtectImage"
 import listenIcon from "../../../assets/img/new icons/Group 283.svg"
 import writeIcon from "../../../assets/img/new icons/Group 285.svg"
 import TitleHead from "../../../components/TitleHead"
+import { Link } from "react-router-dom"
 
 const AssessmentLevel = () => {
+
     const levelList1: IAssessmentCard[] = [
         {
             id: "a1-key",
@@ -88,11 +90,11 @@ const AssessmentLevel = () => {
             theme: "blue",
             level: "L1",
             levelList: [
-                { id: "l10-key", name: "L1.0", url: "#" },
-                { id: "l11-key", name: "L1.1", url: "#" },
-                { id: "l12-key", name: "L1.2", url: "#" },
-                { id: "l13-key", name: "L1.3", url: "#" },
-                { id: "l14-key", name: "L1.4", url: "#" },
+                // { id: "l10-key", name: "L1.0", url: "#" },
+                // { id: "l11-key", name: "L1.1", url: "#" },
+                // { id: "l12-key", name: "L1.2", url: "#" },
+                // { id: "l13-key", name: "L1.3", url: "#" },
+                // { id: "l14-key", name: "L1.4", url: "#" },
             ]
         },
         {
@@ -100,11 +102,11 @@ const AssessmentLevel = () => {
             theme: "blue",
             level: "L2",
             levelList: [
-                { id: "l20-key", name: "L2.0", url: "#" },
-                { id: "l21-key", name: "L2.1", url: "#" },
-                { id: "l22-key", name: "L2.2", url: "#" },
-                { id: "l23-key", name: "L2.3", url: "#" },
-                { id: "l24-key", name: "L2.4", url: "#" }
+                // { id: "l20-key", name: "L2.0", url: "#" },
+                // { id: "l21-key", name: "L2.1", url: "#" },
+                // { id: "l22-key", name: "L2.2", url: "#" },
+                // { id: "l23-key", name: "L2.3", url: "#" },
+                // { id: "l24-key", name: "L2.4", url: "#" }
             ]
         },
         {
@@ -112,11 +114,11 @@ const AssessmentLevel = () => {
             theme: "orange",
             level: "L3",
             levelList: [
-                { id: "l30-key", name: "L3.0", url: "#" },
-                { id: "l31-key", name: "L3.1", url: "#" },
-                { id: "l32-key", name: "L3.2", url: "#" },
-                { id: "l33-key", name: "L3.3", url: "#" },
-                { id: "l34-key", name: "L3.4", url: "#" }
+                // { id: "l30-key", name: "L3.0", url: "#" },
+                // { id: "l31-key", name: "L3.1", url: "#" },
+                // { id: "l32-key", name: "L3.2", url: "#" },
+                // { id: "l33-key", name: "L3.3", url: "#" },
+                // { id: "l34-key", name: "L3.4", url: "#" }
             ]
         },
         {
@@ -124,11 +126,11 @@ const AssessmentLevel = () => {
             theme: "orange",
             level: "L4",
             levelList: [
-                { id: "l40-key", name: "L4.0", url: "#" },
-                { id: "l41-key", name: "L4.1", url: "#" },
-                { id: "l42-key", name: "L4.2", url: "#" },
-                { id: "l43-key", name: "L4.3", url: "#" },
-                { id: "l44-key", name: "L4.4", url: "#" }
+                // { id: "l40-key", name: "L4.0", url: "#" },
+                // { id: "l41-key", name: "L4.1", url: "#" },
+                // { id: "l42-key", name: "L4.2", url: "#" },
+                // { id: "l43-key", name: "L4.3", url: "#" },
+                // { id: "l44-key", name: "L4.4", url: "#" }
             ]
         },
         {
@@ -136,11 +138,11 @@ const AssessmentLevel = () => {
             theme: "sky",
             level: "L5",
             levelList: [
-                { id: "l50-key", name: "L5.0", url: "#" },
-                { id: "l51-key", name: "L5.1", url: "#" },
-                { id: "l52-key", name: "L5.2", url: "#" },
-                { id: "l53-key", name: "L5.3", url: "#" },
-                { id: "l54-key", name: "L5.4", url: "#" }
+                // { id: "l50-key", name: "L5.0", url: "#" },
+                // { id: "l51-key", name: "L5.1", url: "#" },
+                // { id: "l52-key", name: "L5.2", url: "#" },
+                // { id: "l53-key", name: "L5.3", url: "#" },
+                // { id: "l54-key", name: "L5.4", url: "#" }
             ]
         },
         {
@@ -148,11 +150,11 @@ const AssessmentLevel = () => {
             theme: "sky",
             level: "L6",
             levelList: [
-                { id: "l60-key", name: "L6.0", url: "#" },
-                { id: "l61-key", name: "L6.1", url: "#" },
-                { id: "l62-key", name: "L6.2", url: "#" },
-                { id: "l63-key", name: "L6.3", url: "#" },
-                { id: "l64-key", name: "L6.4", url: "#" }
+                // { id: "l60-key", name: "L6.0", url: "#" },
+                // { id: "l61-key", name: "L6.1", url: "#" },
+                // { id: "l62-key", name: "L6.2", url: "#" },
+                // { id: "l63-key", name: "L6.3", url: "#" },
+                // { id: "l64-key", name: "L6.4", url: "#" }
             ]
         },
     ];
@@ -160,8 +162,8 @@ const AssessmentLevel = () => {
         <div className="assessment-level">
             <div className='w-full imageBg '></div>
             <div className=' w-full main-title flex flex-col justify-center items-center '>
-                <h1 className='lg:text-7xl md:text-5xl text-4xl  font-extrabold -mt-2 font-Luckiest'>{}</h1>
-                <TitleHead title={`${t("ASSESSMENTS LEVELS")}`} color={"text-word-blue-dark-1"}/>
+                <h1 className='lg:text-7xl md:text-5xl text-4xl  font-extrabold -mt-2 font-Luckiest'>{ }</h1>
+                <TitleHead title={`${t("ASSESSMENTS LEVELS")}`} color={"text-word-blue-dark-1"} />
                 <h5 className='text-2xl text-word-blue-dark-2  font-medium '>{`${t("Select your suitable level")}`}</h5>
                 <div className='w-28 h-2 bg-word-blue-dark-1 my-6'></div>
             </div>
@@ -176,8 +178,8 @@ const AssessmentLevel = () => {
                             +
                         </div>
                         <div className="font-bold md:text-2xl text-xl text-word-white flex items-center gap-x-3">
-                        <ProtectImage src={listenIcon} className={"w-10 h-10"} alt={""} />
-                            <h5>{`${t("Listening")}`}</h5> 
+                            <ProtectImage src={listenIcon} className={"w-10 h-10"} alt={""} />
+                            <h5>{`${t("Listening")}`}</h5>
                         </div>
                     </div>
                     <div className="flex flex-col gap-y-8 py-10 ">
@@ -198,9 +200,11 @@ const AssessmentLevel = () => {
                 </div>
 
             </div>
-            <div className='w-full bg-word-blue-dark-1 info  flex items-center justify-center ' >
-                <p className='text-word-white lg:text-6xl/[80px] text-center font-bold text-4xl  font-Luckiest'>{`${t("TRY NOW FOR FREE")}`}</p>
-            </div>
+            <Link to={'/assessments-test'} target='_blank'>
+                <div className='w-full bg-word-blue-dark-1 info  flex items-center justify-center  cursor-pointer'  >
+                    < p className='text-word-white lg:text-6xl/[80px] text-center font-bold text-4xl  font-Luckiest' > {`${t("TRY NOW FOR FREE")}`}</p>
+                </div >
+            </Link>
         </div >
     )
 }

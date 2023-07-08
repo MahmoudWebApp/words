@@ -12,7 +12,7 @@ const LandingPage = () => {
                 </div>
                 <div className='basis-1/2 h-auto flex item-center justify-center'>
                     <div className='flex flex-col   justify-center items-start text-center  lg:px-3 lg:pr-24 rtl:lg:pr-0 rtl:lg:pl-24 px-12 '>
-                        <TitleHead title={`${t("assessments")}`} color={"text-word-blue-dark-1"}/>
+                        <TitleHead title={`${t("Assessments")}`} color={"text-word-blue-dark-1"}/>
                         <h5 className='md:text-2xl text-xl text-word-blue-dark-2 font-medium lg:-mt-2 -mt-0 '>{`${t("Identifying your skills")}`}</h5>
                         <div className='w-28 h-2 bg-word-blue-dark-1 my-6'></div>
                         <p className='text-lg/[26px] text-word-gray-dark-3 text-left rtl:text-right'>

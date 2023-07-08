@@ -10,7 +10,7 @@
   padding: 0 3rem;
 }
 .why-words .content {
-  max-height: 65vh;
+  min-height: 60vh;
   padding: 3rem 10rem 3rem 10rem;
   
 }
@@ -18,9 +18,15 @@
   height: 20vh;
 }
 @media only screen and (max-width: 991px) {
+  .why-words {
+    height: auto;
+  }
   .why-words .imageBg {
     height: 20vh;
     background-size: cover;
+  }
+  .why-words .info {
+    height: auto;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -33,6 +39,7 @@
     padding:1rem;
   }
   .why-words {
-    padding: .5rem 0;
+    padding: 0;
   }
+ 
 }

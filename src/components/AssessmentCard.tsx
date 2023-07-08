@@ -65,18 +65,20 @@ const AssessmentCard: React.FC<IAssessmentCard> = (props) => {
                     {props.level}
                 </span>
             </div>
-            <div className={`${initialColor?.light} w-20 h-[7.5rem]  flex justify-center items-center  z-20  ${classTranslate}`}
-                style={{
-                    transition: "all .5s"
-                }}
-            >
-                <ul className="flex justify-center flex-col">
-                    {props.levelList?.map(l => <li key={l.id}>
-                        <a href={l.url} className={`text-word-white text-base font-semibold  ${initialColor.light}  ${initialColor.hoverColor}`}>{l.name}</a>
-                    </li>)}
+            {props.levelList?.length > 0 ?
+                <div className={`${initialColor?.light} w-20 h-[7.5rem]  flex justify-center items-center  z-20  ${classTranslate}`}
+                    style={{
+                        transition: "all .5s"
+                    }}
+                >
 
-                </ul>
-            </div>
+                    <ul className="flex justify-center flex-col">
+                        {props.levelList?.map(l => <li key={l.id}>
+                            <a href={l.url} className={`text-word-white text-base font-semibold  ${initialColor.light}  ${initialColor.hoverColor}`}>{l.name}</a>
+                        </li>)}
+
+                    </ul>
+                </div> : null}
 
         </div>
     )

@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import   Pagination  from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -7,7 +7,7 @@ import 'swiper/css/scrollbar';
 const VideosList = () => {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[ Pagination]}
       spaceBetween={50}
       slidesPerView={3}
       navigation

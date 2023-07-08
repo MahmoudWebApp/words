@@ -17,7 +17,8 @@ const Testimonials = () => {
                 </div>
             </div>
             <div className='w-full bg-words-green-light info  flex items-center justify-center lg:ps-24 md:ps-12 ps-6' >
-                <p className='text-word-white lg:text-6xl/[80px] md:font-bold md:text-3xl font-semibold'>{`${t("LEARNING IS ALWAYS FUN! JOIN US NOW..")}`}</p>
+                {/* <p className='text-word-white lg:text-6xl/[80px] md:font-bold md:text-3xl font-semibold'>{`${t("LEARNING IS ALWAYS FUN! JOIN US NOW..")}`}</p> */}
+                <TitleHead title={`${t("LEARNING IS ALWAYS FUN! JOIN US")}`} color={"text-word-white "} />
             </div>
         </div >
     )

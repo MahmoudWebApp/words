@@ -15,15 +15,15 @@ const WhyWord = () => {
                         <TitleHead title={`${t("Learning Academy")}`} color={"text-word-green-dark"} />
                         <h5 className='text-2xl text-words-green-light font-medium  lg:mt-1 mt-2 rtl:mt-1 '>{`${t("Engagement, fun and daily passes!")}`}</h5>
                         <div className='w-28 h-2 bg-words-green-light my-6'></div>
-                        <p className='text-lg/[26px] text-word-gray-dark-3'>{`${t("An International concept has been implemented leading kids to think globally, using interactive, attractive and effective visions and activities..")}`}</p>
+                        <p className='text-lg/[26px] text-word-gray-dark-3 px-6'>{`${t("An International concept has been implemented leading kids to think globally, using interactive, attractive and effective visions and activities..")}`}</p>
                     </div>
                 </div>
                 <div className='basis-1/2  '>
                     <ProtectImage src={videoImage} className={`object-fit h-full mx-auto `} alt={'video-image'} />
                 </div>
             </div>
-            <div className='w-full bg-words-green-light info  flex items-center justify-center lg:ps-24 md:ps-12  ps-3 lg:mt-0  mt-28 ' >
-                <p className='text-word-white lg:text-6xl/[80px] md:font-bold md:text-3xl font-semibold font-Luckiest'>{`${t("LEARNING IS ALWAYS FUN! JOIN US NOW..")}`}</p>
+            <div className='w-full bg-words-green-light info  flex items-center justify-center lg:ps-24 md:ps-12  ps-3 lg:py-0 py-2 lg:mt-0  mt-28 ' >
+                <TitleHead title={`${t("LEARNING IS ALWAYS FUN! JOIN US NOW..")}`} color={"text-word-white"} />
             </div>
 
         </div >

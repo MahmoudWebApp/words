@@ -11,6 +11,7 @@ import { SiPaypal } from "@react-icons/all-files/si/SiPaypal";
 import { NavLink, useLocation } from "react-router-dom";
 import { ReactNode } from "react";
 import { JackInTheBox } from "react-awesome-reveal";
+import { fontDir } from "../utils/helpFunctions";
 interface IMainMenu {
     key: string;
     name: string;
@@ -62,6 +63,7 @@ const MainMenu: React.FC<IProps> = (props) => {
             icon: <AiFillContacts />
         },
     ];
+    const { titleFont }=fontDir();
     return <>
         {mainMenu?.map((item, index) => (
             <NavLink
@@ -80,7 +82,7 @@ const MainMenu: React.FC<IProps> = (props) => {
                 <JackInTheBox delay={400} duration={500 * (index + 1)} triggerOnce>
                     <div className="flex items-center ">
                         {props.hasIcon && <span className="mx-3 mt-1 ">{item.icon}</span>}
-                        <span className=" font-normal font-Luckiest">{item?.name}</span>
+                        <span className={`font-normal ${titleFont }`}>{item?.name}</span>
                     </div>
                 </JackInTheBox>
             </NavLink>

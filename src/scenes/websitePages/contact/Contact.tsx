@@ -4,6 +4,7 @@ import emailImg from "../../../assets/img/contact/email.png";
 import phoneImg from "../../../assets/img/contact/phone.png";
 import { t } from "i18next";
 import './index.css'
+import TitleHead from "../../../components/TitleHead";
 const Contact = () => {
   return (
     <div className='contact-page'>
@@ -13,7 +14,7 @@ const Contact = () => {
         </div>
         <div className='basis-1/2 h-auto flex item-center justify-center lg:pr-32 md:pr-12 pr-0  rtl:pr-0  rtl:lg:pl-32  rtl:md:pl-12  rtl:pl-0'>
           <div className='flex flex-col   justify-center items-start text-center  '>
-            <h1 className='lg:text-6xl/[80px] text-5xl text-word-pink-light font-extrabold'>{`${t("Contact us")}`}</h1>
+            <TitleHead title={`${t("Contact us")}`} color={"text-word-pink-light"} />
             <h5 className='md:text-2xl text-xl text-word-pink-dark font-medium lg:-mt-2 -mt-0 '>{`${t("We would like to hear from you")}`}</h5>
             <div className='w-28 h-2 bg-word-pink-light my-6'></div>
             <p className='text-lg/[26px] text-word-gray-dark-3 text-left rtl:text-right'>

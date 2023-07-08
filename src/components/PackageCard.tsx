@@ -30,7 +30,7 @@ const PackageCard: React.FC<IPackageCard> = (props) => {
                 <div className="mt-auto">
                     <h6 className="text-xs font-light text-word-green-dark">AED {props.price}/subscriber</h6>
                     <h6 className="text-xs font-light text-dark">(per subscriber per year)</h6>
-                    <button className='w-full px-12 py-2 bg-word-green-dark text-word-white text-sm mt-4 rounded-md' onClick={() => navigate('/')}>
+                    <button className='w-full px-12 py-2 bg-word-green-dark text-word-white text-sm mt-4 rounded-md' onClick={() => navigate(props.url)}>
                         {`${t("Start Now")}`}
                     </button>
                 </div>

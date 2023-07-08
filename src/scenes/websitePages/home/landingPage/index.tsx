@@ -18,7 +18,9 @@ const LandingPage = () => {
                 </div>
                 <div className='basis-1/2'>
                     <div className='flex flex-col gap-y-3 lg:px-0  md:pr-12 pr-0 pt-3  px-6'>
-                        <TitleHead title={`${t("LEARNING IS ALWAYS FUN!")}`} color={"text-word-green-dark"}/>
+                        <TitleHead title={`${t("LEARNING IS")}`} color={"text-word-green-dark"} moreClasses="rtl:hidden"/>
+                        <TitleHead title={`${t("ALWAYS FUN!")}`} color={"text-word-green-dark"} moreClasses="rtl:hidden"/>
+                        <TitleHead title={`${t("مُتعَةَ التّعلّم ")}`} color={"text-word-green-dark"} moreClasses="ltr:hidden"/>
                         <h5 className='md:text-2xl text-xl text-words-green-light font-medium rtl:mt-1'>{`${t("Challenge the children to learn in a fun way!")}`}</h5>
                         <p className='md:text-lg text-base text-word-gray-dark-3'>{`${t("Words academy has been found in hands of educators, content writers, painters and musical specialists who search to find the best practices and methods for kids to learn online Arabic and English languages by interactive and fun ways.")}`}</p>
                         <div className='flex flex-row justify-between lg:mt-24 mt-6'>

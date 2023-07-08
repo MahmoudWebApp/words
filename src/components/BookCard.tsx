@@ -4,7 +4,7 @@ import { IBookCard } from "../models/bookCard.model"
 const BookCard: React.FC<IBookCard> = (props) => {
     return (
         <Roll cascade delay={props.delay} triggerOnce={true} >
-            <div className='md:h-64 h-72 relative bg-cover overflow-hidden shadow-md cursor-pointer'
+            <div className='md:h-64 h-72 relative bg-cover overflow-hidden shadow-md cursor-pointer w-[200px]'
                 style={{ backgroundImage: `url(${props.imgSrc})`, backgroundSize: "100%" }}>
                 <div className='absolute left-0 bottom-0 w-full  h-2/3 z-20 translate-y-1/2 hover:translate-y-0 
      flex flex-col items-center justify-center '
