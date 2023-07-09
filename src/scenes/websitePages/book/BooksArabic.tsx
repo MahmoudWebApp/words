@@ -28,11 +28,11 @@ const BooksArabic = () => {
                 </div>
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-6 gap-y-24 md:px-32   px-3 mt-12" >
                     <OurBookCardArabic title={`${t("Bustan Al-Arabiya")}`} imageUrl={bookArb1Image} level={`${t("Level one")}`}
-    description={`${t("")}`}
+                        description={`${t("The Arabic language book for Non-native speakers - First level - contains texts and effective and interactive activities to enhance understanding among learners and achieve the educational objectives.")}`}
                         subDescription={" 1- أَتَعَرَّفُ، 2- أُحِبُّ الْحَوَاْنَاتِ 1، 3- كَلِمَاْتِي الْأُوْلَى، 4- أُحِبُّ الْحَيَوَاْنَاْتِ 2"}
                     />
                     <OurBookCardArabic title={`${t("Bustan Al-Arabiya")}`} imageUrl={bookArb2Image} level={`${t("Level two")}`}
-                        description={"هذَا كتَابُ الّلغَةِ العَربيّةِ لِلنَّاطِقينَ بِغيرِهَا، لِلمُستَوَى الثّانِي وَهُوَ كتَابٌ وَاحِدٌ يَجمَعُ النّصُوصَ وَالأَنشِطَةَ، حتَّى يكُونَ تَعُلُّمُ الّلغَةِ العَربِيَّةِ لَطِيفاً وَخَفِيفاً وَمُمْتِعاً، وَيَجْتَمِعُ كُلُّ مَا يتَعلَّقُ بِهَا فِي مَكَانٍ وَاحِدٍ. الكِتَابُ مُكَوّنٌ مِنْ أَربَعِ وِحْدَاتٍ:"}
+                        description={`${t("This is an Arabic book for Non-native speakers - Second level - One book that combines texts and activities to transform learning Arabic language to Fun trip. ")}`}
                         subDescription={" ١- جِسمِي. ٢- عَالَمِي. ٣- الوَقتُ. ٤- فِي المَدْرَسةِ."}
                     />
                 </div>
@@ -41,19 +41,19 @@ const BooksArabic = () => {
             <div className="content">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-6 gap-y-24 md:px-32   px-3 mt-12">
                     <OurBookCardArabic title={`${t("Bustan Al-Arabiya")}`} imageUrl={bookArb3Image} level={`${t("Level three")}`}
-                        description={"هَذَا كِتَابُ الُّلغَةِ العَرَبِيّةِ لِغَيرِ النَّاطِقِينَ بِهَا لِلمُستَوَى الثَّالِثُ. وَهُوَ كِتَابٌ وَاحِدٌ يَجمَعُ النُّصُوصَ وَالأَنشِطَةَ، حَتَّى يَكُونَ تَعَلُّمُ الُّلغَةِ العَرَبِيَّةِ لَطِيفاً وَخَفِيفاً وَمُمتِعاً، وَيَجتَمِعُ كُلُّ مَا يَتَعلَّقُ بِهَا فِي مَكَانٍ وَاحِدٍ…. الكِتَابُ مُكَوَّنٌ مِنْ أَربَعِ وِحْدَاتٍ وَهِيَ:"}
+                        description={`${t("The Arabic language book for Non-native speakers - Third level - contains texts and effective and interactive activities to enhance understanding among learners and achieve the educational objectives. ")}`}
                         subDescription={"١- أُرِيدُ أَنْ أُصبِحَ. ٢- يَومِ. ٣- حَولَ العَالَمِ. ٤-عَالَمُ الحَيْوَانِ."}
                     />
                     <OurBookCardArabic title={`${t("Bustan Al-Arabiya")}`} imageUrl={bookArb4Image} level={`${t("Level four")}`}
-                        description={"هَذَا كِتَابُ الُّلغَةِ العَرَبِيَّةِ لِلنَّاطِقِينَ بِغَيرِهَا لِلمُستَوَى الرابع، وَهُوَ كِتَابٌ وَاحِدٌ يَجمَعُ النُّصُوصَ وَالأَنِشَطَةَ وَالتَّمَارِينَ الذِّهنِيَّةَ وَالُّلغَوِيَّةَ والتَّفَاعُلِيَّةَ، حَتَّى يَكُونَ تَعَلُّمُ الُّلغَةِ العَرَبِيَّةِ لَطِيفاً وَخَفِيفاً وَمُمتِعاً، وَيَجتَمِعُ كُلُّ مَا يَتَعَلَّقُ بِتَعلِيمِ الُّلغَةِ فِي مَكَانٍ وَاِحٍد. الكِتَابُ مُكَوَّنٌ مِن أَربَعِ وِحدَاتٍ وَهِيَ:"}
+                        description={`${t("This is an Arabic book for Non-native speakers – Fourth level - One book that combines texts and activities to transform learning Arabic language to Fun trip.")}`}
                         subDescription={"١- الحُقُوْقُ وَالوَاجِبَاتُ . ٢- الهِوَايَاتُ .٣- مُدُنٌ حَوْلَ العَالَمِ .٤- عَجَائِبُ الدُّنْيَا."}
                     />
                     <OurBookCardArabic title={`${t("Bustan Al-Arabiya")}`} imageUrl={bookArb5Image} level={`${t("Level five")}`}
-                        description={"هَذَا كِتَابُ الُّلغَةِ العَرَبِيَّةِ لِغَيْرِ النَّاطِقِينَ بِهَا لِلمُسْتَوَى الخَامِسِ. وَهُوَ كِتَابٌ وَاحِدٌ يَجْمَعُ النُّصَوصَ وَالْأنْشِطَةَ، حَتَّى يَكُوْنَ تَعَلُّمُ الُّلغَةِ العَرَبِيَّةِ لَطِيْفاً وَخَفِيْفاً وَمُمْتِعاً، وَيَجْتَمِعُ كُلُّ مَا يَتَعَلَّقُ بِهَا فِي مَكَانٍ وَاحِدٍ…اَلكِتَابُ مُكَوَّنٌ مِنْ أَرْبَعِ وَحْدَاتٍ وَهِيَ:"}
-                        subDescription={" ١- العَمَلُ وَالمَالُ. ٢- البَيْعُ وَالشِّرَاءُ. ٣- أُسَافِرُ ٤- الأَعْمَالُ الخَيْرِيَّة"}
+                        description={`${t("The Arabic language book for Non-native speakers - Fifth level - contains texts and effective and interactive activities to enhance understanding among learners and achieve the educational objectives. ")}`}
+                         subDescription={" ١- العَمَلُ وَالمَالُ. ٢- البَيْعُ وَالشِّرَاءُ. ٣- أُسَافِرُ ٤- الأَعْمَالُ الخَيْرِيَّة"}
                     />
                     <OurBookCardArabic title={`${t("Bustan Al-Arabiya")}`} imageUrl={bookArb6Image} level={`${t("Level six")}`}
-                        description={"كِتَابُ المُستَوَى السَّادِسِ، كِتَابٌ وَاحِدٌ يَجمَعُ النُّصُوصَ وَالأَنِشَطَةَ وَالتَّمَارِينَ الذِّهنِيَّةَ وَالُّلغَوِيَّةَ والتَّفَاعُلِيَّةَ، حَتَّى يَكُونَ تَعَلُّمُ الُّلغَةِ العَرَبِيَّةِ لَطِيفاً وَخَفِيفاً وَمُمتِعاً، وَيَجتَمِعُ كُلُّ مَا يَتَعَلَّقُ بِتَعلِيمِ الُّلغَةِ فِي مَكَانٍ وَاِحٍد وَبَأَيسَرِ وَأَبسَطِ السُّبُلِ. الكِتَابُ مُكَوَّنٌ مِن أَربَعِ وِحدَاتٍ وَهُيَ:"}
+                        description={`${t("This is an Arabic book for Non-native speakers – Sixth level - One book that combines texts and activities to transform learning Arabic language to Fun trip.")}`}
                         subDescription={" ١- تَجَارُبٌ حَولَ العَالَمِ. ٢- العَادَاتُ والتَّقَالِيدُ. ٣- الأَمَاكِنُ. ٤- مَشَاهِيرُ."}
                     />
                 </div>

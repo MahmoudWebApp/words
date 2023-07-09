@@ -1,14 +1,14 @@
-import ProtectImage from '../../../../components/ProtectImage';
-import videoImage from '../../../../assets/img/home/video.png';
+
 import { t } from 'i18next';
 import './index.css';
 import TitleHead from '../../../../components/TitleHead';
+import VideoPart from './VideoPart';
 
 const WhyWord = () => {
     return (
         <div className='why-words'>
             <div className='w-full imageBg '></div>
-            <div className='w-full flex lg:flex-row flex-col gap-y-6 content lg:-mt-0 md:-mt-12 -mt-3'>
+            <div className='w-full flex lg:flex-row gap-x-6 flex-col gap-y-6 content lg:-mt-0 md:-mt-12 -mt-3'>
                 <div className='basis-1/2 '>
                     <div className='flex flex-col   justify-center  items-center text-center '>
                         <TitleHead title={`${t("Why Words")}`} color={"text-word-green-dark"} />
@@ -19,7 +19,7 @@ const WhyWord = () => {
                     </div>
                 </div>
                 <div className='basis-1/2  '>
-                    <ProtectImage src={videoImage} className={`object-fit h-full mx-auto `} alt={'video-image'} />
+                    <VideoPart/>
                 </div>
             </div>
             <div className='w-full bg-words-green-light info  flex items-center justify-center lg:ps-24 md:ps-12  ps-3 lg:py-0 py-2 lg:mt-0  mt-28 ' >
