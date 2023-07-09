@@ -35,6 +35,7 @@ import BookOnePage27 from "../../../../assets/levels/level1/Level1_Page_027.webp
 import BookOnePage28 from "../../../../assets/levels/level1/Level1_Page_028.webp";
 import BookOnePage29 from "../../../../assets/levels/level1/Level1_Page_029.webp";
 import BookOnePage30 from "../../../../assets/levels/level1/Level1_Page_030.webp";
+import BookOnePage31 from "../../../../assets/levels/level1/Level1_Page_031.webp";
 import BookOneLastPage from "../../../../assets/levels/level1/Level1_Page_164.webp";
 export const data = [
     {
@@ -128,6 +129,9 @@ export const data = [
         },
         {
             id: "b1-p-30", imgSrc: BookOnePage30,
+        },
+        {
+            id: "b1-p-31", imgSrc: BookOnePage31,
         },
 
 
